@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo List</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+  <div class="fact-title">
+    <h2>Task Mastermind</h2>
+  </div>
+
+  <div class="fact-container"></div> <!-- This is where the fact will appear -->
+
+  <div class="todo">
+    <header class="todo__header">
+      <h1 class="todo__title">My Todo List</h1>
+    </header>
+    <section class="todo__content">
+      <form class="todo__form">
+        <input type="text" class="todo__input" id="task-input" placeholder="Add a new task..."
+          aria-label="Task Input" />
+        <button type="submit" class="todo__submit-button">Add Task</button>
+      </form>
+      <ul class="todo__list">
+        <li class="todo__item todo__item--completed">
+          <input type="checkbox" class="todo__checkbox" checked />
+          <span class="todo__task">Learn BEM</span>
+          <button class="todo__delete-button">Delete</button>
+        </li>
+        <li class="todo__item">
+          <input type="checkbox" class="todo__checkbox" />
+          <span class="todo__task">Build Todo App</span>
+          <button class="todo__delete-button">Delete</button>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

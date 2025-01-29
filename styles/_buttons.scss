@@ -1,0 +1,17 @@
+.todo {
+    &__submit-button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: blue;
+        color: white;
+    }
+
+    &__delete-button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: red;
+        color: white;
+    }
+}

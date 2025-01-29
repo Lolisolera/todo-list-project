@@ -1,0 +1,107 @@
+@import './_buttons.scss';
+
+body {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    /* Prevents content from touching edges on small screens */
+}
+
+.fact-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.fact-container {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+    /* Space between the fact and the todo list */
+
+    /* New styling */
+    background-color: #fff;
+    border-left: 6px solid #ff9800;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    color: #333;
+}
+
+/* Todo List Styling */
+.todo {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    /* Centers text inside */
+}
+
+/* BEM-based elements */
+.todo {
+    &__header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-size: 20px;
+        color: #333;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__form {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    &__input {
+        flex-grow: 1;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    &__list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    &__checkbox {
+        margin-right: 10px;
+    }
+
+    &__task {
+        flex-grow: 1;
+        font-size: 18px;
+    }
+}
