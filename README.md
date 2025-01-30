@@ -90,3 +90,5 @@ Step 7: Compile & Run Project
     sass src/styles/main.scss dist/styles/main.css
 
  
+NOTE:
+This project was created locally due to an issue with the repository during its creation. For this reason, not many commits appear logged.

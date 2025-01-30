@@ -3,7 +3,7 @@
 body {
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
+    background-color: #FFF2AF;
     display: flex;
     flex-direction: column;
     /* Stack items vertically */
@@ -46,7 +46,7 @@ body {
 .todo {
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid grey;
     width: 400px;
     padding: 20px;
     text-align: center;
