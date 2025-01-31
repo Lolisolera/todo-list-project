@@ -4,7 +4,7 @@ import { fetchRandomFact } from './api.ts';
 
 // Call the function and display the result
 fetchRandomFact().then(fact => {
-    console.log(fact); // or update the UI accordingly
+    console.log(fact); //ouput did you know fact
 });
 
 // Grab DOM elements

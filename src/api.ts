@@ -10,3 +10,5 @@ export const fetchRandomFact = async (): Promise<string> => {
         return 'Sorry, we couldn\'t fetch a random fact at the moment.';
     }
 };
+
+
