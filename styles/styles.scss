@@ -15,12 +15,8 @@ body {
 }
 
 
-.fact-title {
-    //h2 has inherit this style
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
+h1{
+    font-size: 35px;
     color: #333;
 }
 
@@ -99,6 +95,7 @@ body {
 
     &__checkbox {
         margin-right: 10px;
+    
     }
 
     &__task {
