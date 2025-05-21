@@ -45,16 +45,13 @@ Step 1: Set Up the Project
 
         npm create vite@latest todo-list-project -- --template vanilla-ts 
 
-        cd my-app-name
+        cd todo-list-project
 
         npm i        (for typescript and vite)
 
         npm install -D sass-embedded
 
         npm run dev    
-
-     3/Check that the tsconfig.json is correct and has all the relevant dependencies
-
     
 
 Step 2: HTML Structure (BEM)
